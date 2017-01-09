@@ -47,7 +47,7 @@ public class EventView {
         searchedEventsLabel.setBounds(10, 60, 160, 25);
         panel.add(searchedEventsLabel);
 
-        JList<String> searchedEventList = new JList<>();
+        JList<String> searchedEventList = new JList<>(searchedEvents);
         searchedEventList.setBounds(10, 90, 250, 100);
         panel.add(searchedEventList);
 

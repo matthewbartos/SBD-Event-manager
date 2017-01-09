@@ -1,9 +1,6 @@
 package com.mateuszbartos;
 
-import com.mateuszbartos.views.CreateEventView;
-import com.mateuszbartos.views.EventView;
-import com.mateuszbartos.views.OrganizerView;
-import com.mateuszbartos.views.ParticipantView;
+import com.mateuszbartos.views.*;
 
 public class Main {
 
@@ -12,6 +9,7 @@ public class Main {
 //        ParticipantView mainLayout = new ParticipantView();
 //        OrganizerView mainLayout = new OrganizerView();
 //        EventView mainLayout = new EventView();
-        CreateEventView mainLayout = new CreateEventView();
+//        CreateEventView mainLayout = new CreateEventView();
+        EditEventView mainLayout = new EditEventView();
     }
 }

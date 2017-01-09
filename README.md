@@ -7,6 +7,16 @@ Login:
 Participant View:
 ![Participant View](https://github.com/matis11/SBD-Event-manager/blob/master/ui/participantView.png)
 
+Organizer View:
+![Organizer View](https://github.com/matis11/SBD-Event-manager/blob/master/ui/organizerView.png)
+
+Event View:
+![Event View](https://github.com/matis11/SBD-Event-manager/blob/master/ui/eventView.png)
+
+
+Event Creation View:
+![Event Creation View](https://github.com/matis11/SBD-Event-manager/blob/master/ui/eventCreationView.png)
+
 ## Charts
 Entities:
 ![Entities](https://github.com/matis11/SBD-Event-manager/blob/master/charts/Entities.png)

@@ -13,9 +13,11 @@ Organizer View:
 Event View:
 ![Event View](https://github.com/matis11/SBD-Event-manager/blob/master/ui/eventView.png)
 
-
 Event Creation View:
 ![Event Creation View](https://github.com/matis11/SBD-Event-manager/blob/master/ui/eventCreationView.png)
+
+Event Edit View:
+![Event Creation View](https://github.com/matis11/SBD-Event-manager/blob/master/ui/eventEditView.png)
 
 ## Charts
 Entities:

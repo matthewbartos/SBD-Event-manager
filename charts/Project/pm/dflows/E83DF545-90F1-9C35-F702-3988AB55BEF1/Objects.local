@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.process.DataFlowDesign>
+   <object objectType="ExtAgent" objectID="6640B093-62E9-9F2D-C610-5E8DFC8C69B7" name="Organizer" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.ExternalAgent" propertyParentId="E83DF545-90F1-9C35-F702-3988AB55BEF1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="ExtAgent" objectID="68FA8A5D-1CF0-E376-F4A1-ABB002081545" name="Participant" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.process.ExternalAgent" propertyParentId="E83DF545-90F1-9C35-F702-3988AB55BEF1" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.process.DataFlowDesign>

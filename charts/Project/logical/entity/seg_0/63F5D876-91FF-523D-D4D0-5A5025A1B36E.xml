@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="63F5D876-91FF-523D-D4D0-5A5025A1B36E" name="Organizer">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:30:10 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="0415A032-71A1-5577-4C06-FA0AD1C45774">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:30:19 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="49B9B2AF-AE26-0F59-AE7B-37E589A4D1CF">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:30:22 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname" id="E3C85609-794A-D46C-E412-0EDE1D7E175A">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:30:31 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Group" id="AB63E4D5-48A6-0E05-C008-BBDEBB83196F">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:30:35 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Login" id="CD7728C4-10CE-6DEF-7908-14C52A7EF9B1">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:31:06 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="1D3F5738-5DB7-4C4E-6A03-45A46AFD568E">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:31:09 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="AE5B6798-3600-D5BC-7B6E-6C78981FD532">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:39:25 UTC</createdTime>
+<generatorID>25DD9657-93F4-CD74-A37B-B4419DDA6638</generatorID>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<referedAttribute>D3152CF8-8252-FCC8-CDD3-A35D05AA226C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="358C6079-4197-9B78-C20B-69BFD9A4C027" name="Organizer PK">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:30:20 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0415A032-71A1-5577-4C06-FA0AD1C45774</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

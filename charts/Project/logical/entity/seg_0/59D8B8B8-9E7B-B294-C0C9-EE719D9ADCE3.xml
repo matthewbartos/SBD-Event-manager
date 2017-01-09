@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="59D8B8B8-9E7B-B294-C0C9-EE719D9ADCE3" name="Event">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:33:40 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D3152CF8-8252-FCC8-CDD3-A35D05AA226C">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:33:43 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="F6E5B4BB-98F9-F598-C8E7-DF68BCC29504">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:33:46 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StartDateTime" id="F52D4C2E-A01E-1DEA-2FEA-81FD76FFCFB6">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:33:49 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EndDateTime" id="F85B7A21-2032-016D-F39A-EC3509B0571B">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:37:07 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Category" id="69F79DB7-6D85-79C8-459E-95621B74003B">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:37:23 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Place" id="57859105-0A65-8616-384B-65E29BA0549A">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:38:05 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Size" id="2B2178A2-3825-FC83-6F50-A24BFC0E86D9">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 11:38:13 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E984297C-D881-7E81-935D-1D6812DDC083" name="Event PK">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:33:45 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3152CF8-8252-FCC8-CDD3-A35D05AA226C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

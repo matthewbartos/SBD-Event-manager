@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3C0A50E1-AFB8-ECE7-A46F-0073C164BCD9" name="Participant">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 00:04:07 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>9E63132F-6D63-174D-D84B-21B0D842EF43</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="D38B0E5B-3E37-6F6D-A3A2-D24F15B4CFC3">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:28:41 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="F13E0E40-2049-BD04-35D2-FF458E8F1186">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:28:46 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Surname" id="56F87C3B-E640-2AC9-BF2F-26BEE1D3F8DB">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:28:54 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RegisterDate" id="B0AAFF9D-9EC1-3B62-B3A0-A15A7800BB28">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:28:59 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="isDeleted" id="2D6F3D27-0E30-0BEB-FC90-323CDB391978">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:29:11 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Login" id="538F38B8-73AE-4561-4243-9694D8B58799">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:30:53 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Password" id="68819BB6-F63B-4C45-D7F1-317FC00486BC">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:30:57 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="435DE9B6-24DC-BCEE-8881-E04160B08458" name="User PK">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:28:45 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<engineerTo>
+<item key="18D18F14-30DC-4CC6-5344-6DF5DD3CA392" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D38B0E5B-3E37-6F6D-A3A2-D24F15B4CFC3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

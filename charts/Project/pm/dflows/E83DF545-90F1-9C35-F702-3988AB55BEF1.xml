@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataFlowDesign class="oracle.dbtools.crest.model.design.process.DataFlowDesign" name="Data Flow Diagram_1" id="E83DF545-90F1-9C35-F702-3988AB55BEF1" mainViewID="46FB85E6-087E-7BF7-CA0A-64A214195DCF" topLevel="true">
+<createdBy>mbartos</createdBy>
+<createdTime>2016-11-14 09:42:53 UTC</createdTime>
+<ownerDesignName>Project</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+</DataFlowDesign>

@@ -9,10 +9,10 @@ Participant View:
 
 ## Charts
 Entities:
-![Entities](https://github.com/matis11/SBD-Event-manager/blob/master/ui/Entities.png)
+![Entities](https://github.com/matis11/SBD-Event-manager/blob/master/charts/Entities.png)
 
 UserStories:
-![UserStories](https://github.com/matis11/SBD-Event-manager/blob/master/ui/UserStories.png)
+![UserStories](https://github.com/matis11/SBD-Event-manager/blob/master/charts/UserStories.png)
 
 ## Roadmap
 - [x] Created entity chart,

@@ -1,5 +1,19 @@
 # SBD Event-manager
 
+## UI
+Login:
+![Login](https://github.com/matis11/SBD-Event-manager/blob/master/ui/login.png)
+
+Participant View:
+![Participant View](https://github.com/matis11/SBD-Event-manager/blob/master/ui/participantView.png)
+
+## Charts
+Entities:
+![Entities](https://github.com/matis11/SBD-Event-manager/blob/master/ui/Entities.png)
+
+UserStories:
+![UserStories](https://github.com/matis11/SBD-Event-manager/blob/master/ui/UserStories.png)
+
 ## Roadmap
 - [x] Created entity chart,
 - [x] Created user cases chart,

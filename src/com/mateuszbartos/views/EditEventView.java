@@ -24,7 +24,7 @@ public class EditEventView {
         nameLabel.setBounds(10, 0, 160, 25);
         panel.add(nameLabel);
 
-        JTextField nameField = new JTextField("Programowanie liniowe");
+        JTextField nameField = new JTextField("Akademia #");
         nameField.setBounds(10, 30, 160, 25);
         panel.add(nameField);
 
@@ -32,7 +32,7 @@ public class EditEventView {
         dateStartLabel.setBounds(10, 60, 160, 25);
         panel.add(dateStartLabel);
 
-        JTextField dateStartField = new JTextField("10.01.2017 18:40");
+        JTextField dateStartField = new JTextField("07.01.2017 18:40");
         dateStartField.setBounds(10, 90, 160, 25);
         panel.add(dateStartField);
 
@@ -40,7 +40,7 @@ public class EditEventView {
         dateEndLable.setBounds(10, 120, 160, 25);
         panel.add(dateEndLable);
 
-        JTextField dateEndField = new JTextField("10.01.2017 19:45");
+        JTextField dateEndField = new JTextField("07.01.2017 19:45");
         dateEndField.setBounds(10, 150, 160, 25);
         panel.add(dateEndField);
         
@@ -48,7 +48,7 @@ public class EditEventView {
         categoryLabel.setBounds(10, 180, 160, 25);
         panel.add(categoryLabel);
 
-        JTextField categoryField = new JTextField("Workshop");
+        JTextField categoryField = new JTextField("Lecture");
         categoryField.setBounds(10, 210, 160, 25);
         panel.add(categoryField);
 
@@ -56,7 +56,7 @@ public class EditEventView {
         placeLabel.setBounds(10, 240, 160, 25);
         panel.add(placeLabel);
 
-        JTextField placeField = new JTextField("CW13");
+        JTextField placeField = new JTextField("Connector A");
         placeField.setBounds(10, 270, 160, 25);
         panel.add(placeField);
 
@@ -64,7 +64,7 @@ public class EditEventView {
         sizeLabel.setBounds(10, 300, 160, 25);
         panel.add(sizeLabel);
 
-        JTextField sizeField = new JTextField("90");
+        JTextField sizeField = new JTextField("300");
         sizeField.setBounds(10, 330, 160, 25);
         panel.add(sizeField);
 

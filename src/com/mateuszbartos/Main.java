@@ -1,12 +1,13 @@
 package com.mateuszbartos;
 
-import com.mateuszbartos.views.EventView;
-import com.mateuszbartos.views.LoginView;
+import com.mateuszbartos.views.OrganizerView;
+import com.mateuszbartos.views.ParticipantView;
 
 public class Main {
 
     public static void main(String[] args) {
 //        LoginView mainLayout = new LoginView();
-        EventView mainLayout = new EventView();
+//        ParticipantView mainLayout = new ParticipantView();
+        OrganizerView mainLayout = new OrganizerView();
     }
 }

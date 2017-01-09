@@ -3,12 +3,12 @@ package com.mateuszbartos.views;
 import javax.swing.*;
 import java.util.Vector;
 
-public class EventView {
+public class OrganizerView {
 
     private static Vector<String> events = new Vector<>();
     private static Vector<String> searchedEvents = new Vector<>();
 
-    public EventView() {
+    public OrganizerView() {
         JFrame frame = new JFrame("SBD2 Event Manager");
         frame.setSize(600, 400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -51,7 +51,7 @@ public class EventView {
         searchedEventList.setBounds(10, 90, 250, 100);
         panel.add(searchedEventList);
 
-        JLabel joiningEvent = new JLabel("Events with you");
+        JLabel joiningEvent = new JLabel("Events created by you:");
         joiningEvent.setBounds(270, 60, 160, 25);
         panel.add(joiningEvent);
 
@@ -59,9 +59,13 @@ public class EventView {
         eventList.setBounds(270, 90, 250, 100);
         panel.add(eventList);
 
-        JButton removeButton = new JButton("I'm not going");
+        JButton removeButton = new JButton("Edit/Delete");
         removeButton.setBounds(410, 200, 120, 25);
         panel.add(removeButton);
+
+        JButton addButton = new JButton("Create");
+        addButton.setBounds(280, 200, 120, 25);
+        panel.add(addButton);
 
         JLabel profileLabel = new JLabel("Hello, John Doe!");
         profileLabel.setBounds(180, 250, 160, 25);

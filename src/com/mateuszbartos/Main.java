@@ -1,6 +1,6 @@
 package com.mateuszbartos;
 
-import com.mateuszbartos.views.*;
+import com.mateuszbartos.controllers.Database;
 
 public class Main {
 
@@ -10,6 +10,11 @@ public class Main {
 //        OrganizerView mainLayout = new OrganizerView();
 //        EventView mainLayout = new EventView();
 //        CreateEventView mainLayout = new CreateEventView();
-        EditEventView mainLayout = new EditEventView();
+//        EditEventView mainLayout = new EditEventView();
+
+        final Database database = new Database();
+        System.out.println("prelogin:");
+        System.out.println(database.login("matis", "12345"));
+        System.out.println("postLogin:");
     }
 }
